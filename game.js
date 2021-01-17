@@ -14,7 +14,6 @@ function randomImg(){
 		img[i] = img[r];
 		img[r] = temp;
 	}
-	console.log(img);
 }
 randomImg();
 
